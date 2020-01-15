@@ -96,23 +96,21 @@ nav img {
 /* header styling */
 
 header {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 50px auto 100px auto;
 }
 
-header .slogan-section {
+.slogan-section {
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
     display: inline-block;
     width: 45%;
-    margin-top: 13%;
 }
 
 h1 {
     font-size: 66px;
 }
 
-header .slogan-section a {
+.slogan-section a {
     color: grey;
     border: 1px solid grey;
     padding: 0 30px;
@@ -120,6 +118,6 @@ header .slogan-section a {
 
 header img {
     width: 45%;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
