@@ -125,17 +125,29 @@ header img {
     margin: 4%;
 }
 
-#group-one :first-child {
-    margin-left: 0px;
-}
-
-#group-one :last-child {
-    margin-right: 0px;
-}
-
 /* Style the middle image */
 
 .middle-img {
     width: 100%;
     margin-bottom: 35px;
 }
+
+/* Style the second group of sections */
+
+#group-two section {
+    width: 31.5%;
+    display: inline-block;
+    margin: 1%;
+}
+
+/*
+   Make the first and last elements of the groups bump right up
+   against the edge
+*/
+#group-one :first-child, #group-two :first-child {
+    margin-left: 0px;
+}
+#group-one :last-child, #group-two :last-child {
+    margin-right: 0px;
+}
+
