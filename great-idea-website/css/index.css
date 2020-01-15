@@ -92,3 +92,34 @@ nav a {
 nav img {
     margin: 0 2%;
 }
+
+/* header styling */
+
+header {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+header .slogan-section {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+    margin-top: 13%;
+}
+
+h1 {
+    font-size: 66px;
+}
+
+header .slogan-section a {
+    color: grey;
+    border: 1px solid grey;
+    padding: 0 30px;
+}
+
+header img {
+    width: 45%;
+    vertical-align: top;
+}
+
