@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
+.content {
     width: 95%;
     margin: 0 auto;
 }
@@ -74,6 +74,8 @@ body {
 
 nav {
     text-align: center;
+    background-color: whitesmoke;
+    padding: 5px 0px 8px;
 }
 
 nav a {
