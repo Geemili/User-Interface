@@ -77,23 +77,33 @@ nav {
     left: 0px;
     top: 0px;
     width: 100%;
+    height: 50px;
     text-align: center;
     background-color: whitesmoke;
-    padding: 5px 0px 8px;
 }
 
-nav a {
-    color: grey;
-    text-decoration: none;
+nav .link {
+    display: inline-block;
     width: 10%;
     margin: 0 1%;
-    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+nav .link:hover {
+    background-color: lightgray;
+}
+
+.link a {
     vertical-align: middle;
+    color: grey;
+    text-decoration: none;
 }
 
 nav img {
     margin: 0 2%;
     vertical-align: middle;
+    padding: 5px 0px 8px;
 }
 
 /* header styling */
