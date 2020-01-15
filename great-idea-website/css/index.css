@@ -103,6 +103,7 @@ header {
     vertical-align: middle;
     display: inline-block;
     width: 45%;
+    margin: 0 2%;
 }
 
 h1 {
@@ -118,6 +119,7 @@ h1 {
 header img {
     width: 45%;
     vertical-align: middle;
+    margin: 0 2%;
 }
 
 /* Style the first group of sections */
