@@ -74,7 +74,6 @@ body {
 
 nav {
     text-align: center;
-    vertical-align: middle;
 }
 
 nav a {
@@ -83,10 +82,12 @@ nav a {
     width: 10%;
     margin: 0 1%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 nav img {
     margin: 0 2%;
+    vertical-align: middle;
 }
 
 /* header styling */
