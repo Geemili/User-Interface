@@ -67,12 +67,16 @@ h1, h2, h3, h4, h5 {
 
 .content {
     width: 95%;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 /* Navbar styling */
 
 nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
     text-align: center;
     background-color: whitesmoke;
     padding: 5px 0px 8px;
