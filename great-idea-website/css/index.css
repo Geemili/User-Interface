@@ -134,6 +134,10 @@ header img {
 
 /* Style the second group of sections */
 
+#group-two {
+    margin-bottom: 40px;
+}
+
 #group-two section {
     width: 31.5%;
     display: inline-block;
@@ -151,3 +155,17 @@ header img {
     margin-right: 0px;
 }
 
+
+/* Style footer */
+
+footer {
+    margin: 40px 0;
+}
+
+address {
+    margin-bottom: 30px;
+}
+
+#copyright {
+    text-align: center;
+}
