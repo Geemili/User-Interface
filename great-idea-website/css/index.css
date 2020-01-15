@@ -72,10 +72,6 @@ body {
 
 /* Navbar styling */
 
-.group-one {
-    width: 45%;
-}
-
 nav {
     text-align: center;
     vertical-align: middle;
@@ -121,3 +117,18 @@ header img {
     vertical-align: middle;
 }
 
+/* Style the first group of sections */
+
+#group-one section {
+    width: 45%;
+    display: inline-block;
+    margin: 4%;
+}
+
+#group-one :first-child {
+    margin-left: 0px;
+}
+
+#group-one :last-child {
+    margin-right: 0px;
+}
