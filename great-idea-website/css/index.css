@@ -98,6 +98,7 @@ nav .link:hover {
     vertical-align: middle;
     color: grey;
     text-decoration: none;
+    padding-top: 30px;
 }
 
 nav img {
